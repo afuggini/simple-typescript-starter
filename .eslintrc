@@ -8,8 +8,11 @@
     "prettier"
   ],
   "rules": {
-    "no-console": 1,
-    "prettier/prettier": 2
+    "semi": ["error", "never"],
+    "space-before-function-paren": ["error", "always"],
+    "eol-last": ["error", "always"],
+    "quotes": ["error", "single"],
+    "jsx-quotes": ["error", "prefer-double"]
   },
   "env": {
     "browser": true,

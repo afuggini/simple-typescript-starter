@@ -1,19 +1,19 @@
 
 export class Guesser {
-  private word: string = '';
-  private correctGuesses = 0;
-  
+  private word = ''
+  private correctGuesses = 0
+
   public setWord (word: string) {
-    this.word = word;
+    this.word = word
   }
 
   public guessWord (word: string): boolean {
-    let correct = word.toLowerCase() === this.word.toLowerCase();
-    if (correct) this.correctGuesses++;
-    return correct;
+    const correct = word.toLowerCase() === this.word.toLowerCase()
+    if (correct) this.correctGuesses++
+    return correct
   }
 
   public getNumberCorrectGuesses (): number {
-    return this.correctGuesses;
+    return this.correctGuesses
   }
 }

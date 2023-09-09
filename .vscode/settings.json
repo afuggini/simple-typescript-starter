@@ -1,0 +1,10 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.renderWhitespace": "all",
+  "files.trimTrailingWhitespace": true,
+  "eslint.validate": [
+    "javascript, typescript"
+  ]
+}
